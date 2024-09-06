@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eeb20c;
+}
+
+.nav-hover{
+    color: rgb(234, 234, 245);
+}
+.navbar{
+    background: rgb(34, 26, 1);
+    padding: 30px;
+    margin: auto;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(255, 255, 255); font-size: 16px; font-weight: 500; margin-right: 25px;
+}
+
+
+/* Content Styling */
+.content {
+    text-align: center;
+    color: #fff;
+    max-width: 1500px;
+    padding: 50px;
+}
+.imagei.png{
+    float: center;
+}
+.content h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    line-height: 95% ;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.button1{
+    font-size: 24px; font-weight: 400; background-color: rgb(35, 189, 4); border-radius: 24px; width: 200px; margin-bottom: 20px; padding: 5px; display: block; margin: auto; border-color: rgb(240, 240, 255); cursor: pointer;
+}
+.button2{
+    font-size: 24px; font-weight: 400; background-color: rgb(35, 189, 4); border-radius: 24px; width: 80px; margin-bottom: 20px; padding: 5px; display: block; margin-top: -70px; margin-left: 820px; border-color: rgb(240, 240, 255); cursor: pointer;
+}
+.box{
+    margin-top: 0%; 
+    margin-right: 200px;
+    width: 1500px;
+    height: 500px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 100px 100px 200px;
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration-color: antiquewhite;
+    display: flex;
+    
+}
+.image2.png{
+    float: right;
+    margin-left: 10%;
+
+    
+}
+h2{
+    font-size: 30px;
+    padding: 50px 100px 10px 470px;
+    text-wrap: left;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 70px;
+    margin-bottom: 10px;
+    padding: 30px 10px 10px 340px;
+    display: flex;
+    text-justify: auto;
+    background-color: #fff;
+    
+}
+.p2{
+    font-size: 20px;
+    margin-bottom: 40px;
+   text-align: justify;
+    display: flex;
+    text-justify: auto;
+}
+
+.box2{
+    margin-top: 5%; 
+    margin-right: 200px;
+    width: 1500px;
+    height: 500px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 400px 50px 360px;
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration-color: antiquewhite;
+    display: flex;
+    
+}
+.image4.png{
+    float: center;
+   
+    justify-items: center;
+}
+/* Button Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color;
+}
