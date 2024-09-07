@@ -1,12 +1,9 @@
-*{
+body{
     margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;    
     box-sizing: border-box;
-}
-
-/* Body and Background */
-body {
+    background-size: cover;
+    background-position: center;
     font-family: 'Arial', sans-serif;
     background-color: #e6a902;
 }
@@ -64,13 +61,14 @@ li a{
 }
 .box{
     margin-top: 0%; 
-    margin-right: 200px;
-    width: 1500px;
-    height: 500px;
+    margin-right: 10px;
+    width: 1400px;
+    height: 400px;
+    justify-self: center;
     align-self: center;
     background-color: rgb(255, 255, 255);
-    padding: 100px 100px 100px 200px;
-    font-size: 5em;
+    padding: 40px 40px 10px 40px;
+    font-size: 6em;
     font-weight: bold;
     text-decoration-color: antiquewhite;
     display: flex;
@@ -78,24 +76,24 @@ li a{
 }
 .image2.png{
     float: right;
-    margin-left: 10%;
-
     
+
 }
 h2{
     font-size: 30px;
-    padding: 50px 100px 10px 470px;
+    padding: 20px 10px 10px 470px;
     text-wrap: left;
     margin-bottom: 20px;
 }
 
 h3{
     font-size: 70px;
-    margin-bottom: 10px;
-    padding: 30px 10px 10px 340px;
+    margin-bottom: 5px;
+    padding: 10px 5px 5px 340px;
     display: flex;
     text-justify: auto;
-    background-color: #fff;
+    background-color: #fff;margin-top: -50px;
+
     
 }
 .p2{
@@ -107,17 +105,18 @@ h3{
 }
 
 .box2{
-    margin-top: 5%; 
+    
     margin-right: 200px;
-    width: 1500px;
-    height: 500px;
+    width: 1400px;
+    height: 400px;
     align-self: center;
     background-color: rgb(255, 255, 255);
-    padding: 100px 400px 50px 360px;
+    padding: 30px 360px 30px 360px;
     font-size: 5em;
     font-weight: bold;
     text-decoration-color: antiquewhite;
     display: flex;
+    justify-self: center;
     
 }
 .image4.png{
